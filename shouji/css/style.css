@@ -4,6 +4,7 @@
      width: 16rem;
      height: 4.3rem;
      background-color: #38474F;
+     margin: 0 auto;
 }
  .top-t{
      width: 16rem;
@@ -33,7 +34,7 @@
      right: 1.075rem;
      line-height: 1.975rem;
 }
-.box{
+ .box{
      width: 0.6rem;
      height: 0.35rem;
      color: #000;
@@ -45,17 +46,17 @@
      right: 0.65rem;
      top: 0.525rem;
 }
-.box h4{
-	font-size: 0.25rem;
-    line-height:  0.35rem;
+ .box h4{
+     font-size: 0.25rem;
+     line-height: 0.35rem;
 }
-.top-b{
+ .top-b{
      width: 16rem;
      height: 2.325rem;
      position: relative;
      float: left;
 }
-.box2{
+ .box2{
      width: 7.175rem;
      height: 1.575rem;
      background-color: #2D3A40;
@@ -70,7 +71,7 @@
      font-size: 0.35rem;
      line-height: 1.575rem;
 }
-.box3{
+ .box3{
      width: 7.175rem;
      height: 1.575rem;
      background-color: #F6846A;
@@ -85,13 +86,14 @@
      font-size: 0.35rem;
      line-height: 1.575rem;
 }
-.det{
+ .det{
      width: 16rem;
      height: 42.1rem;
      position: relative;
      background-color: #E8E8E8;
+     margin: 0 auto;
 }
-.banner{
+ .banner{
      width: 14.8rem;
      height: 14.825rem;
      position: absolute;
@@ -100,7 +102,11 @@
      border-radius: 0.15rem;
      background-color: #fff;
 }
-.xbox{
+ .banner img{
+     width: 14.8rem;
+     height: 11.775rem;
+}
+ .xbox{
      width: 0.5rem;
      height: 0.2rem;
      border-radius: 0.05rem;
@@ -109,7 +115,7 @@
      top:10.825rem;
      left: 1.05rem;
 }
-.xbox2{
+ .xbox2{
      width: 0.5rem;
      height: 0.2rem;
      border-radius: 0.05rem;
@@ -118,7 +124,7 @@
      top:10.825rem;
      left: 1.725rem;
 }
-.xbox3{
+ .xbox3{
      width: 0.5rem;
      height: 0.2rem;
      border-radius: 0.05rem;
@@ -127,14 +133,14 @@
      top:10.825rem;
      left: 2.4rem;
 }
-.banner p{
+ .banner p{
      font-size: 0.65rem;
      color: #000;
      position: absolute;
      top:12.975rem;
      left: 1.1rem;
 }
-.box4{
+ .box4{
      width: 3.6rem;
      height: 1.675rem;
      background-color: #BFBFC4;
@@ -149,31 +155,31 @@
      line-height: 1.675rem;
      color: #fff;
 }
-.add{
-	width: 14.8rem;
-	height: 2.5rem;
-	position: absolute;
-	top: 16.175rem ;
-	left: 0.6rem;
-	border-radius: 0.15rem;
-    background-color: #fff;
+ .add{
+     width: 14.8rem;
+     height: 2.5rem;
+     position: absolute;
+     top: 16.175rem ;
+     left: 0.6rem;
+     border-radius: 0.15rem;
+     background-color: #fff;
 }
-.icon3{
+ .icon3{
      font-size: 0.7rem;
      position: absolute;
      left: 1.075rem;
      top: 0.95rem;
 }
-.add a{
-	color: #A6A6AD;
+ .add a{
+     color: #A6A6AD;
 }
-.add p{
+ .add p{
      font-size: 0.6rem;
      position: absolute;
      left: 2.825rem;
      top: 0.875rem;
 }
-.synthesis{
+ .synthesis{
      width: 14.8rem;
      height: 12.75rem;
      position: absolute;
@@ -182,7 +188,9 @@
      border-radius: 0.15rem;
      background-color: #fff;
 }
-.synthesis img{
+ .synthesis img{
+     width: 0.55rem ;
+     height: 0.65rem;
      position: absolute;
      left: 5.875rem;
      top: 0.85rem;
@@ -195,14 +203,14 @@
      left: 6.8rem;
      top: 0.925rem;
 }
-.text2{
+ .text2{
      font-size: 0.5rem;
      color: #A6A6AD;
      position: absolute;
      top: 2rem;
      left: 4.4rem;
 }
-.box5{
+ .box5{
      width: 1.775rem;
      height: 1.775rem;
      position: absolute;
@@ -211,12 +219,14 @@
      background-color: #F0C9CE;
      border-radius: 0.075rem;
 }
-.box5 img{
-	position: absolute;
-	left: 22px;
-	top: 21px;
+ .box5 img{
+     width: 0.7rem;
+     height: 0.7rem;
+     position: absolute;
+     left: 0.55rem;
+     top: 0.525rem;
 }
-.box6{
+ .box6{
      width: 1.775rem;
      height: 1.775rem;
      position: absolute;
@@ -225,7 +235,7 @@
      background-color: #AF687A;
      border-radius: 0.075rem;
 }
-.box7{
+ .box7{
      width: 1.775rem;
      height: 1.775rem;
      position: absolute;
@@ -234,15 +244,15 @@
      background-color: #87A6B2;
      border-radius: 0.075rem;
 }
-.box8{
-	width: 454px;
-	height: 2px;
-	position: absolute;
-	top: 250px;
-	left: 71px;
-	background-color: #DCDCDC;
+ .box8{
+     width: 11.35rem;
+     height: 0.05rem;
+     position: absolute;
+     top: 6.25rem;
+     left: 1.775rem;
+     background-color: #DCDCDC;
 }
-.icon4{
+ .icon4{
      font-size: 0.65rem;
      position: absolute;
      left: 6.1rem;
@@ -254,14 +264,14 @@
      left: 7.35rem;
      top: 7.35rem;
 }
-.text4{
+ .text4{
      color: #A6A6AD;
      font-size: 0.55rem;
      position: absolute;
      left: 4rem;
      top: 8.475rem;
 }
-.synthesis a{
+ .synthesis a{
      width: 1.775rem;
      height: 1.775rem;
      position: absolute;
@@ -276,12 +286,12 @@
      line-height: 1.775rem;
      font-size: 0.45rem;
 }
-.synthesis .an{
-	position: absolute;
-	left: 4.175rem;
-	top: 9.875rem;
+ .synthesis .an{
+     position: absolute;
+     left: 4.175rem;
+     top: 9.875rem;
 }
-.synthesis .an2{
+ .synthesis .an2{
      position: absolute;
      left: 6.575rem;
      top: 9.875rem;
@@ -296,11 +306,11 @@
      left: 11.35rem;
      top: 9.875rem;
 }
-.synthesis a:hover{
-	background-color: #67B0D6;
-	color: #fff;
+ .synthesis a:hover{
+     background-color: #67B0D6;
+     color: #fff;
 }
-.syn{
+ .syn{
      width: 6.925rem;
      height: 1.5rem;
      background-color: #000;
@@ -315,14 +325,14 @@
      color: #fff;
      line-height: 1.5rem;
 }
-.text5{
+ .text5{
      color: #323C3F;
      font-size: 0.45rem;
      position: absolute;
      left: 0.675rem;
      top: 37.3rem;
 }
-.xbox4{
+ .xbox4{
      width: 10.75rem;
      height: 0.05rem;
      position: absolute;
@@ -330,27 +340,27 @@
      top: 37.549rem;
      background-color: #C9CBCC;
 }
-.bom1{
+ .bom1{
      position: absolute;
      left: 0.675rem;
      top: 38.875rem;
 }
-.box9{
+ .box9{
      width: 1.475rem;
      height: 0.975rem;
      position: absolute;
      left: 3.125rem;
      top:39.325rem;
      background-color: #fff;
-     border-radius: 3px;
+     border-radius: 0.075rem;
      text-align: center;
 }
-.box9 h4{
+ .box9 h4{
      font-size: 0.3rem;
      color: #323C3F;
      line-height: 0.975rem;
 }
-.san1{
+ .san1{
      width: 0rem;
      height: 0rem;
      border:12px solid;
@@ -359,16 +369,15 @@
      left: 2.825rem;
      top:39.325rem;
 }
- 
  #ben{
- 	display: none;
+     display: none;
 }
-.bom2{
+ .bom2{
      position: absolute;
      left: 6.15rem;
      top: 38.875rem;
 }
-.san2{
+ .san2{
      width: 0rem;
      height: 0rem;
      border:12px solid;
@@ -377,30 +386,42 @@
      left:8.275rem;
      top:39.325rem;
 }
-.box10{
+ .box10{
      width: 1.475rem;
      height: 0.975rem;
      position: absolute;
      left: 8.575rem;
      top:39.325rem;
      background-color: #fff;
-     border-radius: 3px;
+     border-radius: 0.075rem;
      text-align: center;
 }
-.box10 h4{
+ .box10 h4{
      font-size: 0.3rem;
      color: #323C3F;
      line-height: 0.975rem;
- }
- #ben2{
- 	display: none;
 }
-.bom3{
+ #ben2{
+     display: none;
+}
+ .bom3{
      position: absolute;
-     left:  11.475rem ;
+     left: 11.475rem ;
      top: 38.875rem;
 }
-.san3{
+.bom1 img{
+     width: 1.85rem ;
+     height: 1.85rem ; 
+}
+.bom2 img{
+     width: 1.85rem ;
+     height: 1.85rem ; 
+}
+.bom3 img{
+     width: 1.85rem ;
+     height: 1.85rem ; 
+}
+ .san3{
      width: 0rem;
      height: 0rem;
      border:12px solid;
@@ -409,21 +430,21 @@
      left:13.525rem;
      top:39.325rem;
 }
-.box11{
+ .box11{
      width: 1.475rem;
      height: 0.975rem;
      position: absolute;
      left: 13.85rem;
      top:39.325rem;
      background-color: #fff;
-     border-radius: 3px;
+     border-radius: 0.075rem;
      text-align: center;
 }
-.box11 h4{
+ .box11 h4{
      font-size: 0.3rem;
      color: #323C3F;
      line-height: 0.975rem;
- }
+}
  #ben3{
- 	display: none;
+     display: none;
 }
