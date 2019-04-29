@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+   
+   
+</head>
+<body>
+	<div class="top">
+        <div class="top-t">
+            <a href="#"><i class="iconfont icon-houtui icon1"></i></a>
+            <p>Woman,Dresses</p>
+            <a href="#"><i class="iconfont icon-gouwuche icon2"></i></a>
+            <div class="box"><h4>3</h4></div>
+        </div>
+        <div class="top-b">
+            <a href="#" class="box2"><p>ADD TO WISHLIST</p></a>
+            <a href="#" class="box3"><p>ADD TO CART</p></a>
+        </div>   
+    </div>
+    <div class="det">
+        <div class="banner">
+            <img src="images/1.png">
+            <span class="xbox"></span>
+            <span class="xbox2"></span>
+            <span class="xbox3"></span>
+            <p>Elegant Pink Dresses</p>
+            <a href="#" class="box4"><h4>$605，00</h4></a>
+        </div>
+        <div class="add">
+            <a href="#"><i class="iconfont icon-icon-test icon3"></i></a>
+            <p>Description</p>
+        </div>
+        <div class="synthesis">
+            <img src="images/2.png">
+            <p class="text">Colour:</p>
+            <p class="text2">Choose a colour for item</p>
+            <div class="box5"><img src="images/3.png"></div>
+            <div class="box6"></div>
+            <div class="box7"></div>
+            <div class="box8"></div>
+            <i class="iconfont icon-yijia icon4"></i>
+            <p class="text3">Size:</p>
+            <p class="text4">Size available for this item</p>
+            <a href="#"><h4>1</h4></a>
+            <a href="#" class="an"><h4>2</h4></a>
+            <a href="#" class="an2"><h4>3</h4></a>
+            <a href="#" class="an3"><h4>4</h4></a>
+            <a href="#" class="an4"><h4>5</h4></a>
+        </div>
+        <a href="#" class="syn"><h4>Add to Cart</h4></a>
+        <p class="text5">SHARE ON</p>
+        <div class="xbox4"></div>
+        <div class="bom1" id="btn"><img src="images/4.png"></div>
+        <div id="ben">
+            <div class="san1"></div>
+            <a href="#" class="box9"><h4>205</h4></a>
+        </div>
+        <div class="bom2" id="btn2"><img src="images/5.png"></div>
+        <div id="ben2">
+            <div class="san2"></div>
+            <a href="#" class="box10"><h4>332</h4></a>
+        </div>
+        <div class="bom3" id="btn3"><img src="images/6.png"></div>
+        <div id="ben3">
+            <div class="san3"></div>
+            <a href="#" class="box11"><h4>332</h4></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var btn = document.getElementById('btn');
+        var ben = document.getElementById('ben');
+        var btn2 = document.getElementById('btn2');
+        var ben2 = document.getElementById('ben2');
+        var btn3 = document.getElementById('btn3');
+        var ben3 = document.getElementById('ben3');
+        btn.onclick = function(){
+            ben.style.display = 'block';
+        }
+        btn2.onclick = function(){
+            ben2.style.display = 'block';
+        }
+        btn3.onclick = function(){
+            ben3.style.display = 'block';
+        }
+    </script>   	
+</body>
+</html>
